@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Header</title>
+    <script src="../js_/menu_button.js"></script>
+    <link rel="stylesheet" href="../css_/index.css" />
+    <script src="../js_/affichage.js"></script>
+  </head>
+  <body>
+    
+    <header>
+      <nav>
+        <div class="logo">
+          <img class="logo" src="../picture_/LOGO.png" alt="logo" />
+        </div> 
+        
+        <ul class="menu">
+          <li><a href="../php_/Se_connecter.php">Se connecter</a></li>
+          <li><a href="../php_/sinscrire.php">S'inscrire</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <div id="leftMenu">
+      <a href="javscript:void(0)" class="btn-area" onclick="closeBtn()">×</a>
+      <div class="mainNav">
+        <a href="../php_/index.php">home</a>
+        <a href="../php_/index.php#remorquage">Remorquage</a>
+        <a href="../php_/index.php#depannage">Dépannage</a>
+        <a href="../php_/index.php#ouverture_portes">Déverouillage de portes</a>
+        <a href="../php_/index.php#reparation_roues">Réparation et changement de roues</a>
+        <a href="../php_/index.php#recharge_batterie">Recharge de batterie</a>
+        <a href="../php_/index.php#ravitaillement">Ravitaillement en carburant</a>
+        <a href="../php_/index.php#vidange">Vidange</a>
+        <a href="../php_/index.php#lavage">Lavage</a>
+        <a href="../php_/Rdvperso.php" ><div id="rdv" >Rendez-vous personnalisé </div></a>
+        <a href="../php_/historiqueClient.php"><div id="mesDemandes" >Mon historique de demandes</div></a>
+        <a href="../php_/historiqueAdmin.php"><div id="idAdmin" >Historique de demandes des clients</div></a>
+      </div>
+    </div>
+    <span onclick="openBtn()">☰ Menu</span>
+  </body>
+</html>
